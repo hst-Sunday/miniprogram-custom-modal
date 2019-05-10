@@ -1,1 +1,9 @@
-<comp></comp>
+<button type='primary' bindtap='open'>打开Modal</button>
+<base-modal class="base-modal"  bind:cancel="modalCancel" bind:confirm='modalConfirm'> 
+  <view slot="header" class='modal-header'>
+    <text>我是头部</text>
+  </view>
+  <view slot="body" class='modal-body'>
+    <text>内容部分(添加class可自定义样式)</text>
+  </view>
+</base-modal>

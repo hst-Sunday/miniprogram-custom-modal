@@ -4,3 +4,77 @@
 .index {
   color: green;
 }
+
+
+/* components/modal/modal.wxss */
+
+.mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+}
+
+.modal-box {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.modal-flex-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-header {
+  padding: 24rpx 32rpx;
+}
+
+.modal-body {
+  flex-grow: 1;
+  overflow-y: hidden;
+  max-height: 320rpx;
+  min-height: 160rpx;
+  padding: 16rpx 32rpx;
+}
+
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  height: 96rpx;
+  line-height: 96rpx;
+  border-top: 2rpx solid #b9c1c9;
+}
+
+.cancel-btn {
+  flex: 1;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.confirm-btn {
+  flex: 1;
+  height: 96rpx;
+  line-height: 96rpx;
+  text-align: center;
+  font-size: 32rpx;
+}
+
+.cancel-btn {
+  border-right: 2rpx solid #b9c1c9;
+}
+
+.main-content {
+  flex: 1;
+  max-height: 320rpx;
+  min-height: 160rpx;
+  overflow-y: hidden;
+}
