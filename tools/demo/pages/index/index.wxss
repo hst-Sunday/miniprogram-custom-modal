@@ -1,0 +1,9 @@
+.modal-header {
+  font-size: 32rpx;
+  font-weight: 600;
+  text-align: center;
+}
+
+.modal-body {
+  font-size: 42rpx;
+}
