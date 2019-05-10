@@ -2,6 +2,11 @@
 
 可自定义modal的title和body样式(有渐入渐出动画效果)
 
+##  安装组件
+
+```
+npm install --save miniprogram-custom-modal
+```
 
 ## 例子
 
@@ -57,5 +62,18 @@ Page({
   }
 ```
 
+## base-modal 的属性和方法介绍如下：
+1. 属性
+   | 字段名                | 类型    | 必填 | 描述                                      |
+   | --------------------- | ------- | ---- | ----------------------------------------- | 
+   | bind:cancel                    | event  | 否   |  点击modal取消按钮                |
+   | bind:confirm                   | event  | 否   |  点击modal确定按钮                |
+
+2. 方法
+   | 方法名                | 参数    | 描述                                      |
+   | --------------------- | ----- | ----------------------------------------- | 
+   |        open           | 无  | 打开modal               |
+   | close                 | 无  | 关闭modal             |
+   
 ## 开发 
   [可以看官方的文档](https://hst-sunday.github.io/react-motion-menu-button/)
