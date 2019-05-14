@@ -10,6 +10,8 @@ npm install --save miniprogram-custom-modal
 
 ## 例子
 
+![image](https://github.com/hst-Sunday/miniprogram-custom-modal/tree/master/static/modalgif.gif )
+
 1. 在需要用到的wxml页面上添加以下代码 
 
 ```
@@ -76,4 +78,4 @@ Page({
 | close | 无 | 关闭modal |
    
 ## 开发 
-  [可以看官方的文档](https://hst-sunday.github.io/react-motion-menu-button/)
+  [可以看官方的文档](https://github.com/wechat-miniprogram/miniprogram-custom-component)
