@@ -10,6 +10,8 @@ npm install --save miniprogram-custom-modal
 
 ## 例子
 
+![image](https://github.com/hst-Sunday/miniprogram-custom-modal/blob/master/static/modalgif.gif )
+
 1. 在需要用到的wxml页面上添加以下代码 
 
 ```
@@ -63,17 +65,17 @@ Page({
 ```
 
 ## base-modal 的属性和方法介绍如下：
-1. 属性
-   | 字段名                | 类型    | 必填 | 描述                                      |
-   | --------------------- | ------- | ---- | ----------------------------------------- | 
-   | bind:cancel                    | event  | 否   |  点击modal取消按钮                |
-   | bind:confirm                   | event  | 否   |  点击modal确定按钮                |
+#### 1.属性  
+| 选项 | 描述 | 类型 | 默认值 |
+|-----|------|-----|-------|
+|bind:cancel | event | 否 | 点击modal取消按钮 |
+|bind:confirm| event | 否 | 点击modal确定按钮 |
 
-2. 方法
-   | 方法名                | 参数    | 描述                                      |
-   | --------------------- | ----- | ----------------------------------------- | 
-   |        open           | 无  | 打开modal               |
-   | close                 | 无  | 关闭modal             |
+#### 2.方法   
+| 方法名| 参数 | 描述 |
+| ---- | ---- | -----| 
+| open | 无 | 打开modal|
+| close | 无 | 关闭modal |
    
 ## 开发 
-  [可以看官方的文档](https://hst-sunday.github.io/react-motion-menu-button/)
+  [可以看官方的文档](https://github.com/wechat-miniprogram/miniprogram-custom-component)
