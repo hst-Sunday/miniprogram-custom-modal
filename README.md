@@ -1,4 +1,4 @@
-# miniprogram-custom-component
+# miniprogram-custom-modal
 
 可自定义modal的title和body样式(有渐入渐出动画效果)
 
