@@ -10,7 +10,7 @@ npm install --save miniprogram-custom-modal
 
 ## 例子
 
-![image](https://github.com/hst-Sunday/miniprogram-custom-modal/tree/master/static/modalgif.gif )
+![image](https://github.com/hst-Sunday/miniprogram-custom-modal/blob/master/static/modalgif.gif )
 
 1. 在需要用到的wxml页面上添加以下代码 
 
